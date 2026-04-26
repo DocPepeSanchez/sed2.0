@@ -52,6 +52,24 @@ Las diez ADRs viven en `docs/adr/`. Resumen:
 | ADR-09 | WCAG 2.1 AA en CI/CD | Adoptado |
 | ADR-10 | Cifrado a nivel campo | Adoptado |
 
+## ✦ Despliegue rápido en Vercel + Neon
+
+Para verlo en línea en ~10 minutos:
+
+1. Crea una BD gratuita en <https://neon.tech> y copia la `DATABASE_URL`
+2. Genera secretos: `openssl rand -base64 32` (dos veces)
+3. Localmente, aplica el esquema + catálogos:
+   ```bash
+   npm install
+   DATABASE_URL=... SESSION_SECRET=... FIELD_ENCRYPTION_KEY=... npm run db:setup
+   ```
+4. Importa el repo en <https://vercel.com>, configura las 3 variables de
+   entorno, **Deploy**.
+
+Guía detallada en [`docs/deployment-vercel.md`](docs/deployment-vercel.md).
+
+> ⚠️ **Para producción real**: Vercel + Neon es infra estadounidense. Yucatán debe alojar en datacenter mexicano (P-01 — soberanía de datos). Ver `docs/deployment.md` para topología productiva.
+
 ## ✦ Cómo arrancar
 
 ### Requisitos
