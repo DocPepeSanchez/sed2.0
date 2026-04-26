@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* P-08: WCAG 2.1 AA — soporte para preferencias de accesibilidad. */
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-slate-900 antialiased;
+  }
+
+  /* Foco visible — requisito 2.4.7 WCAG. */
+  :focus-visible {
+    outline: 3px solid theme('colors.ceeey.500');
+    outline-offset: 2px;
+  }
+
+  /* Reducción de movimiento — requisito 2.3.3 WCAG. */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Modo de alto contraste. */
+  .alto-contraste {
+    @apply text-black;
+    background: #fff !important;
+  }
+  .alto-contraste a {
+    @apply underline;
+  }
+}
+
+@layer components {
+  .skip-link {
+    @apply absolute left-2 top-2 -translate-y-16 rounded bg-ceeey-700 px-3 py-2 text-white shadow focus:translate-y-0;
+  }
+}

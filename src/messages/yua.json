@@ -1,0 +1,88 @@
+{
+  "app": {
+    "nombre": "SED 2.0",
+    "subtitulo": "U Najil Tu’uxil ku Beeta’al U P’iisil Kanik tu Lu’umil Yucatán",
+    "ceeey": "U Najil Tu’uxil ku Beeta’al U P’iisil Kaambal tu Lu’umil Yucatán",
+    "cargando": "Táan u jóok’ol…"
+  },
+  "nav": {
+    "inicio": "Káajbal",
+    "banco": "U Najil Ba’atelo’ob",
+    "instrumentos": "Nu’ukulo’ob",
+    "aplicaciones": "Beetalilo’ob",
+    "calificacion": "Tojbe’enil",
+    "reportes": "Tsolxikino’ob",
+    "alertas": "Tuukulo’ob",
+    "observatorio": "Pakte Iliko’ob",
+    "ayuda": "Áantaj",
+    "salir": "Jóok’ol"
+  },
+  "auth": {
+    "iniciarSesion": "Káajs a meyaj",
+    "correo": "Túuxta’an ts’íib",
+    "contrasena": "T’aan ta’akun",
+    "rfcOCurp": "RFC wa CURP",
+    "olvideContrasena": "¿Tu’ub teech a t’aan ta’akun?",
+    "errorCredenciales": "Ma’ jaaj le t’aano’ob ta tsa’ajo’"
+  },
+  "banco": {
+    "titulo": "U Najil Ba’atelo’ob",
+    "totalRetos": "Tuláakal le ba’atelo’obo’",
+    "operativos": "Ku meyaj",
+    "enRevision": "Táan u xokik",
+    "calibrados": "P’ato’on",
+    "nuevoReto": "Túumben ba’atel",
+    "estados": {
+      "CREADO": "Beeta’an",
+      "REVISADO_1": "Xokika’an junten",
+      "REVISADO_2": "Xokika’an ka’aten",
+      "EN_ARBITRAJE": "Tu táan tóoj",
+      "REVISADO_FILOLOGICO": "Xokika’an u t’aan",
+      "EN_PILOTAJE": "Tu yáax beetal",
+      "PILOTEADO": "Yáax beetal",
+      "CALIBRADO": "P’ato’on",
+      "OPERATIVO": "Ku meyaj",
+      "RETIRADO": "Joch’a’an"
+    }
+  },
+  "aplicacion": {
+    "titulo": "Beetalilo’ob",
+    "modalidad": {
+      "1A1": "Juntúul ti’ juntúul",
+      "ROTACION": "Súutbil",
+      "GRUPAL": "Múuch’kabil",
+      "OMR": "Ts’íibalil yéetel ju’un"
+    },
+    "estado": {
+      "PROGRAMADA": "Tukulta’an",
+      "EN_CURSO": "Tu beeta’al",
+      "FINALIZADA": "Ts’o’oka’an",
+      "CANCELADA": "Ch’éensa’an"
+    }
+  },
+  "reportes": {
+    "estudiante": "U Tsolxikinil le Kaambalo’",
+    "escuela": "U Tsolxikinil le Najil Xooko’",
+    "zona": "U Tsolxikinil le Báak’paachilo’",
+    "region": "U Tsolxikinil le Lu’umilo’",
+    "estado": "U Tsolxikinil le Kúuchkabalo’",
+    "bandas": {
+      "INSUFICIENTE": "Ma’ tu chukbesik",
+      "BASICO": "Káabétiko’ob",
+      "SATISFACTORIO": "Uts beeta’an",
+      "SOBRESALIENTE": "Jach uts beeta’an"
+    }
+  },
+  "accesibilidad": {
+    "saltarAlContenido": "Sáajal tak le nu’ukbesajilo’",
+    "menuPrincipal": "Nojoch áak’ab tsool",
+    "alternarIdioma": "K’éexel t’aan",
+    "altoContraste": "Nojoch chéen kaaj"
+  },
+  "footer": {
+    "aviso": "Tsolxikinil U K’ubentaj",
+    "transparencia": "U Tu’uxil U Sáasil",
+    "datosAbiertos": "Je’elaan Datos",
+    "contacto": "Túuxta’an"
+  }
+}

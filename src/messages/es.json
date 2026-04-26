@@ -1,0 +1,88 @@
+{
+  "app": {
+    "nombre": "SED 2.0",
+    "subtitulo": "Sistema de Evaluación Dinámica del Estado de Yucatán",
+    "ceeey": "Centro de Evaluación Educativa del Estado de Yucatán",
+    "cargando": "Cargando…"
+  },
+  "nav": {
+    "inicio": "Inicio",
+    "banco": "Banco de Retos",
+    "instrumentos": "Instrumentos",
+    "aplicaciones": "Aplicaciones",
+    "calificacion": "Calificación",
+    "reportes": "Reportes",
+    "alertas": "Alertas",
+    "observatorio": "Observatorio",
+    "ayuda": "Ayuda",
+    "salir": "Salir"
+  },
+  "auth": {
+    "iniciarSesion": "Iniciar sesión",
+    "correo": "Correo electrónico",
+    "contrasena": "Contraseña",
+    "rfcOCurp": "RFC o CURP",
+    "olvideContrasena": "¿Olvidó su contraseña?",
+    "errorCredenciales": "Credenciales no válidas"
+  },
+  "banco": {
+    "titulo": "Banco de Retos",
+    "totalRetos": "Total de retos",
+    "operativos": "Operativos",
+    "enRevision": "En revisión",
+    "calibrados": "Calibrados",
+    "nuevoReto": "Nuevo reto",
+    "estados": {
+      "CREADO": "Creado",
+      "REVISADO_1": "Revisado 1",
+      "REVISADO_2": "Revisado 2",
+      "EN_ARBITRAJE": "En arbitraje",
+      "REVISADO_FILOLOGICO": "Revisado filológico",
+      "EN_PILOTAJE": "En pilotaje",
+      "PILOTEADO": "Piloteado",
+      "CALIBRADO": "Calibrado",
+      "OPERATIVO": "Operativo",
+      "RETIRADO": "Retirado"
+    }
+  },
+  "aplicacion": {
+    "titulo": "Aplicaciones",
+    "modalidad": {
+      "1A1": "Uno a uno",
+      "ROTACION": "Rotación",
+      "GRUPAL": "Grupal",
+      "OMR": "Lápiz y papel (OMR)"
+    },
+    "estado": {
+      "PROGRAMADA": "Programada",
+      "EN_CURSO": "En curso",
+      "FINALIZADA": "Finalizada",
+      "CANCELADA": "Cancelada"
+    }
+  },
+  "reportes": {
+    "estudiante": "Reporte del Estudiante",
+    "escuela": "Reporte de la Escuela",
+    "zona": "Reporte de Zona",
+    "region": "Reporte Regional",
+    "estado": "Reporte Estatal",
+    "bandas": {
+      "INSUFICIENTE": "Insuficiente",
+      "BASICO": "Básico",
+      "SATISFACTORIO": "Satisfactorio",
+      "SOBRESALIENTE": "Sobresaliente"
+    }
+  },
+  "accesibilidad": {
+    "saltarAlContenido": "Saltar al contenido principal",
+    "menuPrincipal": "Menú principal",
+    "alternarIdioma": "Cambiar idioma",
+    "altoContraste": "Alto contraste"
+  },
+  "footer": {
+    "aviso": "Aviso de Privacidad",
+    "transparencia": "Portal de Transparencia",
+    "datosAbiertos": "Datos Abiertos",
+    "contacto": "Contacto"
+  }
+}
