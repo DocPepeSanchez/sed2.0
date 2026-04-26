@@ -52,15 +52,35 @@ Las diez ADRs viven en `docs/adr/`. Resumen:
 | ADR-09 | WCAG 2.1 AA en CI/CD | Adoptado |
 | ADR-10 | Cifrado a nivel campo | Adoptado |
 
+## ✦ Demo local en un comando (recomendado)
+
+Si tienes Docker instalado, una sola instrucción levanta Postgres + la app
+con esquema y catálogos cargados:
+
+```bash
+git clone https://github.com/docpepesanchez/sed2.0.git
+cd sed2.0
+make demo
+```
+
+Tras ~3 minutos (la primera vez):
+
+- <http://localhost:3000/es> — portada bilingüe
+- <http://localhost:3000/yua> — versión maya yucateca
+- <http://localhost:3000/api/health> — `{"status":"ok","db":"up"}`
+- <http://localhost:3000/api/openapi.json> — contrato OpenAPI 3.1
+
+Guía completa: [`docs/deployment-local.md`](docs/deployment-local.md).
+
 ## ✦ Despliegue rápido en Vercel + Neon
 
-Para verlo en línea en ~10 minutos:
+Para verlo accesible públicamente en ~10 minutos:
 
 1. Crea una BD gratuita en <https://neon.tech> y copia la `DATABASE_URL`
 2. Genera secretos: `openssl rand -base64 32` (dos veces)
 3. Localmente, aplica el esquema + catálogos:
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    DATABASE_URL=... SESSION_SECRET=... FIELD_ENCRYPTION_KEY=... npm run db:setup
    ```
 4. Importa el repo en <https://vercel.com>, configura las 3 variables de
