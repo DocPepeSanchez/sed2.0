@@ -3,12 +3,12 @@ import { Badge } from '@/components/ui/Badge';
 import { db } from '@/db/client';
 import { aplicaciones, escuelas } from '@/db/schema';
 import { eq } from 'drizzle-orm';
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 export const dynamic = 'force-dynamic';
 
 export default async function AplicacionesPage() {
-  const t = useTranslations('aplicacion');
+  const t = await getTranslations('aplicacion');
   let filas: Array<{
     id: string;
     cct: string;

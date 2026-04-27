@@ -32,7 +32,14 @@ export async function POST(req: Request, { params }: { params: { id: string } })
   try {
     const r = await registrarRespuesta(
       { sujeto: sess.sujeto, asignaciones: sess.asignaciones ?? [] },
-      { sesionId: params.id, ...parsed.data },
+      {
+        sesionId: params.id,
+        retoId: parsed.data.retoId,
+        retoVersionId: parsed.data.retoVersionId,
+        contenidoQti: parsed.data.contenidoQti,
+        tiempoRespuestaSeg: parsed.data.tiempoRespuestaSeg,
+        aciertoSugerido: parsed.data.aciertoSugerido,
+      },
     );
     return NextResponse.json(r, { status: 201 });
   } catch (err) {

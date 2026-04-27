@@ -1,6 +1,6 @@
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { db } from '@/db/client';
 import { retos } from '@/db/schema';
 import { sql } from 'drizzle-orm';
@@ -8,7 +8,7 @@ import { sql } from 'drizzle-orm';
 export const dynamic = 'force-dynamic';
 
 export default async function BancoPage() {
-  const t = useTranslations('banco');
+  const t = await getTranslations('banco');
 
   let total = 0;
   let porEstado: Array<{ estado: string; n: number }> = [];

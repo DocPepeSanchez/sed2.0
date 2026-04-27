@@ -12,6 +12,13 @@ const nextConfig = {
       bodySizeLimit: '5mb',
     },
   },
+  // El typecheck (`npm run typecheck`) y los tests siguen siendo gates en CI.
+  // ESLint en build se desactiva porque el plugin @typescript-eslint no
+  // está en el preset de Next por defecto y los `eslint-disable` provocan
+  // "Definition for rule not found"; lo mantenemos para `npm run lint`.
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   // P-05 — cifrado por defecto y P-08 — accesibilidad (encabezados de seguridad).
   async headers() {
     return [

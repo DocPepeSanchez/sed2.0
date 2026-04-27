@@ -30,9 +30,8 @@ export async function GET(req: Request) {
   }
   const { limite, desde } = params.data;
   const filas = await db.select().from(retos).orderBy(desc(retos.createdAt)).limit(limite).offset(desde);
-  const [{ total }] = (await db.select({ total: sql<number>`count(*)::int` }).from(retos)) as Array<{
-    total: number;
-  }>;
+  const conteo = await db.select({ total: sql<number>`count(*)::int` }).from(retos);
+  const total = conteo[0]?.total ?? 0;
   return NextResponse.json({ datos: filas, paginacion: { limite, desde, total } });
 }
 
