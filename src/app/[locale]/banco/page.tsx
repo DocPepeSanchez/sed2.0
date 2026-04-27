@@ -2,16 +2,31 @@ import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { getTranslations } from 'next-intl/server';
 import { db } from '@/db/client';
-import { retos } from '@/db/schema';
-import { sql } from 'drizzle-orm';
+import { retos, retoVersiones, parametrosTri } from '@/db/schema';
+import { sql, desc, eq } from 'drizzle-orm';
 
 export const dynamic = 'force-dynamic';
+
+interface RetoFila {
+  id: string;
+  clave: string;
+  campo: string;
+  fase: number;
+  grado: number;
+  tipo: string;
+  idioma: string;
+  estado: string;
+  modeloTri?: string | null;
+  dificultadB?: number | null;
+  nMuestra?: number | null;
+}
 
 export default async function BancoPage() {
   const t = await getTranslations('banco');
 
   let total = 0;
   let porEstado: Array<{ estado: string; n: number }> = [];
+  let listado: RetoFila[] = [];
   try {
     const filas = await db
       .select({ estado: retos.estado, n: sql<number>`count(*)::int` })
@@ -19,6 +34,39 @@ export default async function BancoPage() {
       .groupBy(retos.estado);
     porEstado = filas.map((f) => ({ estado: f.estado, n: Number(f.n) }));
     total = porEstado.reduce((acc, f) => acc + f.n, 0);
+
+    const lista = await db
+      .select({
+        id: retos.id,
+        clave: retos.clave,
+        campo: retos.campo,
+        fase: retos.fase,
+        grado: retos.grado,
+        tipo: retos.tipo,
+        idioma: retos.idioma,
+        estado: retos.estado,
+        modeloTri: parametrosTri.modelo,
+        dificultadB: parametrosTri.b,
+        nMuestra: parametrosTri.nMuestra,
+      })
+      .from(retos)
+      .leftJoin(retoVersiones, eq(retoVersiones.retoId, retos.id))
+      .leftJoin(parametrosTri, eq(parametrosTri.retoVersionId, retoVersiones.id))
+      .orderBy(desc(retos.createdAt))
+      .limit(50);
+    listado = lista.map((r) => ({
+      id: r.id,
+      clave: r.clave,
+      campo: r.campo,
+      fase: r.fase,
+      grado: r.grado,
+      tipo: r.tipo,
+      idioma: r.idioma,
+      estado: r.estado,
+      modeloTri: r.modeloTri ?? null,
+      dificultadB: r.dificultadB ? Number(r.dificultadB) : null,
+      nMuestra: r.nMuestra ?? null,
+    }));
   } catch {
     // Sin BD disponible — la página debe seguir siendo renderizable.
   }
@@ -87,6 +135,54 @@ export default async function BancoPage() {
           </table>
         </Card>
       </section>
+
+      {listado.length > 0 && (
+        <section className="mt-6">
+          <Card>
+            <h2 className="mb-3 text-base font-semibold text-slate-900">Retos en el banco</h2>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead className="text-left text-xs uppercase tracking-wider text-slate-500">
+                  <tr>
+                    <th className="py-2">Clave</th>
+                    <th className="py-2">Campo · Fase · Grado</th>
+                    <th className="py-2">Tipo</th>
+                    <th className="py-2">Idioma</th>
+                    <th className="py-2">Estado</th>
+                    <th className="py-2 text-right">TRI (b)</th>
+                    <th className="py-2 text-right">N pilotaje</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {listado.map((r) => (
+                    <tr key={r.id} className="border-t border-slate-100">
+                      <td className="py-2 font-mono text-xs">{r.clave}</td>
+                      <td className="py-2">
+                        <span className="text-slate-700">{r.campo}</span> · F{r.fase} · {r.grado}º
+                      </td>
+                      <td className="py-2 text-xs text-slate-600">{r.tipo}</td>
+                      <td className="py-2">
+                        <Badge variante={r.idioma === 'yua' ? 'info' : 'neutro'}>
+                          {r.idioma === 'yua' ? 'Maya' : 'Español'}
+                        </Badge>
+                      </td>
+                      <td className="py-2">
+                        <Badge variante={mapVariante(r.estado)}>{t(`estados.${r.estado}`)}</Badge>
+                      </td>
+                      <td className="py-2 text-right font-mono text-xs">
+                        {r.dificultadB !== null && r.dificultadB !== undefined
+                          ? `${r.modeloTri} · ${r.dificultadB.toFixed(2)}`
+                          : '—'}
+                      </td>
+                      <td className="py-2 text-right font-mono text-xs">{r.nMuestra ?? '—'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </Card>
+        </section>
+      )}
     </div>
   );
 }

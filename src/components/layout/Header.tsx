@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { LocaleSwitcher } from './LocaleSwitcher';
+import { SessionWidget } from './SessionWidget';
 
 export function Header({ locale }: { locale: string }) {
   const t = useTranslations('nav');
@@ -8,7 +9,7 @@ export function Header({ locale }: { locale: string }) {
 
   return (
     <header className="bg-ceeey-700 text-white shadow-md">
-      <div className="mx-auto max-w-7xl px-4 py-3 flex items-center gap-4">
+      <div className="mx-auto max-w-7xl px-4 py-3 flex items-center gap-4 flex-wrap">
         <Link
           href={`/${locale}`}
           className="flex flex-col leading-tight focus:outline-none focus:ring-2 focus:ring-white"
@@ -24,6 +25,7 @@ export function Header({ locale }: { locale: string }) {
           <NavLink href={`/${locale}/alertas`}>{t('alertas')}</NavLink>
           <NavLink href={`/${locale}/observatorio`}>{t('observatorio')}</NavLink>
           <LocaleSwitcher current={locale} />
+          <SessionWidget locale={locale} />
         </nav>
       </div>
     </header>
