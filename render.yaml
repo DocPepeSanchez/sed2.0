@@ -21,7 +21,7 @@ services:
     # db:migrate y db:seed son idempotentes (onConflictDoNothing), seguros
     # de correr en cada build. Evitamos preDeployCommand para mantenerlo
     # disponible en plan free.
-    buildCommand: npm install --legacy-peer-deps && npm run db:migrate && npm run db:seed && npm run build
+            buildCommand: npm install --legacy-peer-deps && npm run db:migrate && npm run build
     startCommand: npm run start
     healthCheckPath: /api/health
     envVars:
