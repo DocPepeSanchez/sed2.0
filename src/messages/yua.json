@@ -25,6 +25,57 @@
     "olvideContrasena": "¿Tu’ub teech a t’aan ta’akun?",
     "errorCredenciales": "Ma’ jaaj le t’aano’ob ta tsa’ajo’"
   },
+  "home": {
+    "lema": "U Mukuk’il Maaya 2024–2030",
+    "intro": "U najil meyaj ti’ kúuchkabal Yucatán utia’al p’iisil kaambal: u máansa’al, u xokik yéetel u táaktal le kaambalo’.",
+    "modulos": {
+      "banco": "U najil ba’atelo’ob ich kaambal yéetel maaya, yéetel ka’atéen xoka’an yéetel xokik t’aan.",
+      "instrumentos": "Yáax beetal, ila’an yéetel táaka’an: u nu’ukulilo’ob u xak’al kaambal jaab.",
+      "aplicaciones": "Kantéen jejeláas u beeta’al: 1:1, súutbil, múuch’kabil yéetel ts’íibalil yéetel ju’un.",
+      "calificacion": "Óoxtéen ila’an: meyajilo’ob, IA yéetel u winikilo’ob.",
+      "reportes": "Jo’otéen tsolxikino’ob: kaambal, najil xook, báak’paach, lu’umkabal yéetel kúuchkabal.",
+      "observatorio": "Je’elaan datos t’aanaja’an yéetel u permiso ka’atéen.",
+      "alertas": "U péek’tuukulil paachil yéetel u tukula’an u táakbesa’al."
+    },
+    "indicadores": {
+      "disponibilidad": "Ti’a’an le najilo’",
+      "devolucion": "Súutul ti’ k’iin",
+      "accesibilidad": "Tu’ux ku páajtal okol"
+    }
+  },
+  "dashboard": {
+    "hola": "K’a’abe’et a wokol",
+    "rolesActivos": "Meyajilo’ob ku beetik",
+    "directivo": {
+      "titulo": "U na’ajan u jo’oloolal",
+      "subtitulo": "U paktiko’ob u kúuchkabalil le SED: máanchajil, súutul ti’ k’iin yéetel u banco ku meyaj."
+    },
+    "academico": {
+      "titulo": "U kúuchil u meyaj akadémika",
+      "subtitulo": "U p’iisil yéetel u xokik u ba’atelo’ob: weey ku beeta’al u jaajil le nu’ukula’."
+    },
+    "docente": {
+      "titulo": "U kúuchil u aj-ka’ansaj",
+      "subtitulo": "U beetalilo’ob ti’ a najil xook, péek’tuukulo’ob yéetel tsolxikino’ob ti’ a múuch’kabil."
+    },
+    "estudiante": {
+      "titulo": "In kúuchil",
+      "subtitulo": "U beeta’al ku taal yéetel a tsolxikinil ti’ kaambal yéetel maaya.",
+      "miReporte": "In tsolxikinil",
+      "miReporteDesc": "Tsolxikinil yéetel u jejeláasil a meyaj yéetel tukula’ano’ob ti’ kaambal wa maaya.",
+      "proximaAplicacion": "U taal beetal",
+      "proximaAplicacionDesc": "Le ka’aj u tukulte a aj-ka’ansaj junp’éel beetal, way ken chíikpajak."
+    },
+    "otro": {
+      "titulo": "U páajtal okol",
+      "subtitulo": "Káaja’an a meyaj. Páajtal a paktik je’elaan datos yéetel tsolxikino’ob anonimizado’ob."
+    },
+    "kpi": {
+      "cobertura": "U máanchajil beetalo’ob",
+      "banco": "U najil ba’atelo’ob",
+      "devolucion": "Súutul ti’ k’iin"
+    }
+  },
   "banco": {
     "titulo": "U Najil Ba’atelo’ob",
     "totalRetos": "Tuláakal le ba’atelo’obo’",

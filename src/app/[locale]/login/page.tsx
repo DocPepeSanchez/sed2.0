@@ -24,10 +24,12 @@ export default async function LoginPage({ params: { locale } }: { params: { loca
       <section className="mt-10 rounded-lg border border-amber-200 bg-amber-50 p-4 text-xs text-amber-900">
         <p className="font-semibold">Cuentas demo (solo para esta instancia pública)</p>
         <ul className="mt-2 space-y-1 font-mono">
-          <li>director@demo.sed.yucatan.gob.mx · Director General</li>
-          <li>psicometria@demo.sed.yucatan.gob.mx · Psicometrista</li>
+          <li>director@demo.sed.yucatan.gob.mx · Directivo</li>
+          <li>academico@demo.sed.yucatan.gob.mx · Académico (Psicometrista Sr.)</li>
           <li>docente@demo.sed.yucatan.gob.mx · Docente bilingüe</li>
-          <li>aplicador@demo.sed.yucatan.gob.mx · Aplicador</li>
+          <li>elaborador@demo.sed.yucatan.gob.mx · Elaborador del banco</li>
+          <li>aplicador@demo.sed.yucatan.gob.mx · Aplicador en CCT</li>
+          <li>estudiante@demo.sed.yucatan.gob.mx · Estudiante</li>
           <li className="pt-1">Contraseña común: <code>Demo2026Sed!</code></li>
         </ul>
       </section>
