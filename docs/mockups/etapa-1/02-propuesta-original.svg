@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Lato, system-ui, sans-serif">
+  <!-- Fondo crema -->
+  <rect width="1280" height="720" fill="#EFEDEA"/>
+
+  <!-- Header berry -->
+  <rect x="0" y="0" width="1280" height="64" fill="#970E48"/>
+  <rect x="0" y="64" width="1280" height="4" fill="#C2995C"/>
+  <text x="48" y="40" fill="#ffffff" font-size="18" font-weight="900" letter-spacing="0.5">SED 2.0  ·  ETAPA 1</text>
+  <text x="1232" y="40" text-anchor="end" fill="#f4cad8" font-size="12" font-weight="300" letter-spacing="2">PLAN RENACIMIENTO MAYA  ·  YUCATÁN 2024–2030</text>
+
+  <!-- Título de slide -->
+  <g transform="translate(48 110)">
+    <text x="0" y="0" fill="#970E48" font-size="13" font-weight="900" letter-spacing="3">PROPUESTA TÉCNICA ORIGINAL · ÍNTEGRA</text>
+    <rect x="0" y="8" width="60" height="3" fill="#C2995C"/>
+    <text x="0" y="50" fill="#1a1410" font-size="34" font-weight="900">Ocho pilares conservados</text>
+    <text x="0" y="78" fill="#5e554b" font-size="14" font-weight="300">El alcance original de la propuesta se respeta íntegro. Cada pilar es un compromiso entregable de la Etapa 1.</text>
+  </g>
+
+  <!-- Grid 4x2 con los 8 pilares -->
+  <g transform="translate(48 220)">
+    <!-- Pilar 1 -->
+    <g transform="translate(0 0)">
+      <rect width="288" height="200" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="288" height="3" fill="#C2995C"/>
+      <text x="20" y="30" fill="#970E48" font-size="32" font-weight="900">01</text>
+      <text x="20" y="60" fill="#1a1410" font-size="14" font-weight="900">Arquitectura modular</text>
+      <text x="20" y="76" fill="#1a1410" font-size="14" font-weight="900">y escalable</text>
+      <text x="20" y="106" fill="#5e554b" font-size="11" font-weight="300">Sistema web estatal con</text>
+      <text x="20" y="121" fill="#5e554b" font-size="11" font-weight="300">capas independientes:</text>
+      <text x="20" y="136" fill="#5e554b" font-size="11" font-weight="300">datos · contenidos · aplicación</text>
+      <text x="20" y="151" fill="#5e554b" font-size="11" font-weight="300">· calificación · ecosistema.</text>
+      <rect x="20" y="170" width="40" height="2" fill="#C2995C"/>
+      <text x="20" y="190" fill="#876237" font-size="10" font-weight="700">Capa 1–8</text>
+    </g>
+
+    <!-- Pilar 2 -->
+    <g transform="translate(304 0)">
+      <rect width="288" height="200" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="288" height="3" fill="#C2995C"/>
+      <text x="20" y="30" fill="#970E48" font-size="32" font-weight="900">02</text>
+      <text x="20" y="60" fill="#1a1410" font-size="14" font-weight="900">Gestión jerárquica y</text>
+      <text x="20" y="76" fill="#1a1410" font-size="14" font-weight="900">carga masiva con Excel</text>
+      <text x="20" y="106" fill="#5e554b" font-size="11" font-weight="300">Estado → Región → Zona</text>
+      <text x="20" y="121" fill="#5e554b" font-size="11" font-weight="300">→ Escuela. Importación de</text>
+      <text x="20" y="136" fill="#5e554b" font-size="11" font-weight="300">padrones, reactivos y</text>
+      <text x="20" y="151" fill="#5e554b" font-size="11" font-weight="300">resultados desde XLSX.</text>
+      <rect x="20" y="170" width="40" height="2" fill="#C2995C"/>
+      <text x="20" y="190" fill="#876237" font-size="10" font-weight="700">XLSX · CSV · OMR</text>
+    </g>
+
+    <!-- Pilar 3 -->
+    <g transform="translate(608 0)">
+      <rect width="288" height="200" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="288" height="3" fill="#C2995C"/>
+      <text x="20" y="30" fill="#970E48" font-size="32" font-weight="900">03</text>
+      <text x="20" y="60" fill="#1a1410" font-size="14" font-weight="900">Cuatro roles operativos</text>
+      <text x="20" y="76" fill="#1a1410" font-size="14" font-weight="900">de la propuesta</text>
+      <text x="20" y="106" fill="#5e554b" font-size="11" font-weight="300">Elaborador · Revisor ·</text>
+      <text x="20" y="121" fill="#5e554b" font-size="11" font-weight="300">Aplicador · Administrador.</text>
+      <text x="20" y="136" fill="#5e554b" font-size="11" font-weight="300">Catálogo extendido a 22 roles</text>
+      <text x="20" y="151" fill="#5e554b" font-size="11" font-weight="300">con RBAC declarativo.</text>
+      <rect x="20" y="170" width="40" height="2" fill="#C2995C"/>
+      <text x="20" y="190" fill="#876237" font-size="10" font-weight="700">RBAC · 22 roles</text>
+    </g>
+
+    <!-- Pilar 4 -->
+    <g transform="translate(912 0)">
+      <rect width="288" height="200" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="288" height="3" fill="#C2995C"/>
+      <text x="20" y="30" fill="#970E48" font-size="32" font-weight="900">04</text>
+      <text x="20" y="60" fill="#1a1410" font-size="14" font-weight="900">Reactivos clasificados</text>
+      <text x="20" y="76" fill="#1a1410" font-size="14" font-weight="900">e instrumentos</text>
+      <text x="20" y="106" fill="#5e554b" font-size="11" font-weight="300">Banco con campo formativo,</text>
+      <text x="20" y="121" fill="#5e554b" font-size="11" font-weight="300">fase, grado, eje y PDA.</text>
+      <text x="20" y="136" fill="#5e554b" font-size="11" font-weight="300">Instrumentos configurables</text>
+      <text x="20" y="151" fill="#5e554b" font-size="11" font-weight="300">con calibración TRI.</text>
+      <rect x="20" y="170" width="40" height="2" fill="#C2995C"/>
+      <text x="20" y="190" fill="#876237" font-size="10" font-weight="700">QTI 3.0 · 1PL/2PL/3PL</text>
+    </g>
+
+    <!-- Fila 2 -->
+    <!-- Pilar 5 -->
+    <g transform="translate(0 220)">
+      <rect width="288" height="200" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="288" height="3" fill="#C2995C"/>
+      <text x="20" y="30" fill="#970E48" font-size="32" font-weight="900">05</text>
+      <text x="20" y="60" fill="#1a1410" font-size="14" font-weight="900">Motor multi-etapa</text>
+      <text x="20" y="76" fill="#1a1410" font-size="14" font-weight="900">por reactivo</text>
+      <text x="20" y="106" fill="#5e554b" font-size="11" font-weight="300">Aportación pedagógica clave:</text>
+      <text x="20" y="121" fill="#5e554b" font-size="11" font-weight="300">respuesta abierta → cerradas</text>
+      <text x="20" y="136" fill="#5e554b" font-size="11" font-weight="300">→ procedimientos. Conserva</text>
+      <text x="20" y="151" fill="#5e554b" font-size="11" font-weight="300">la lógica original íntegra.</text>
+      <rect x="20" y="170" width="40" height="2" fill="#C2995C"/>
+      <text x="20" y="190" fill="#876237" font-size="10" font-weight="700">CAT + scaffolding</text>
+    </g>
+
+    <!-- Pilar 6 -->
+    <g transform="translate(304 220)">
+      <rect width="288" height="200" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="288" height="3" fill="#C2995C"/>
+      <text x="20" y="30" fill="#970E48" font-size="32" font-weight="900">06</text>
+      <text x="20" y="60" fill="#1a1410" font-size="14" font-weight="900">Tres tipos de</text>
+      <text x="20" y="76" fill="#1a1410" font-size="14" font-weight="900">aplicación</text>
+      <text x="20" y="106" fill="#5e554b" font-size="11" font-weight="300">Pilotaje (≥ 500 respuestas),</text>
+      <text x="20" y="121" fill="#5e554b" font-size="11" font-weight="300">Diagnóstico de inicio de ciclo</text>
+      <text x="20" y="136" fill="#5e554b" font-size="11" font-weight="300">y Seguimiento Through-Year</text>
+      <text x="20" y="151" fill="#5e554b" font-size="11" font-weight="300">inspirado en STAAR-TTAP.</text>
+      <rect x="20" y="170" width="40" height="2" fill="#C2995C"/>
+      <text x="20" y="190" fill="#876237" font-size="10" font-weight="700">1A1 · Rotación · Grupal · OMR</text>
+    </g>
+
+    <!-- Pilar 7 -->
+    <g transform="translate(608 220)">
+      <rect width="288" height="200" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="288" height="3" fill="#C2995C"/>
+      <text x="20" y="30" fill="#970E48" font-size="32" font-weight="900">07</text>
+      <text x="20" y="60" fill="#1a1410" font-size="14" font-weight="900">Reportes en cinco</text>
+      <text x="20" y="76" fill="#1a1410" font-size="14" font-weight="900">niveles jerárquicos</text>
+      <text x="20" y="106" fill="#5e554b" font-size="11" font-weight="300">Estudiante · Escuela · Zona ·</text>
+      <text x="20" y="121" fill="#5e554b" font-size="11" font-weight="300">Región · Estado. Devolución</text>
+      <text x="20" y="136" fill="#5e554b" font-size="11" font-weight="300">oportuna ≤ 72 h al 95 % de</text>
+      <text x="20" y="151" fill="#5e554b" font-size="11" font-weight="300">respuestas (RC-07).</text>
+      <rect x="20" y="170" width="40" height="2" fill="#C2995C"/>
+      <text x="20" y="190" fill="#876237" font-size="10" font-weight="700">Bilingüe es / yua</text>
+    </g>
+
+    <!-- Pilar 8 -->
+    <g transform="translate(912 220)">
+      <rect width="288" height="200" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="288" height="3" fill="#C2995C"/>
+      <text x="20" y="30" fill="#970E48" font-size="32" font-weight="900">08</text>
+      <text x="20" y="60" fill="#1a1410" font-size="14" font-weight="900">Concurrencia</text>
+      <text x="20" y="76" fill="#1a1410" font-size="14" font-weight="900">masiva</text>
+      <text x="20" y="106" fill="#5e554b" font-size="11" font-weight="300">Soporte para aplicación</text>
+      <text x="20" y="121" fill="#5e554b" font-size="11" font-weight="300">simultánea estatal: cargas</text>
+      <text x="20" y="136" fill="#5e554b" font-size="11" font-weight="300">de pico, modo offline-first</text>
+      <text x="20" y="151" fill="#5e554b" font-size="11" font-weight="300">para escuelas sin conectividad.</text>
+      <rect x="20" y="170" width="40" height="2" fill="#C2995C"/>
+      <text x="20" y="190" fill="#876237" font-size="10" font-weight="700">Disponibilidad ≥ 99.5 %</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <rect x="0" y="690" width="1280" height="30" fill="#640730"/>
+  <text x="48" y="710" fill="#ffffff" font-size="11" font-weight="700" letter-spacing="1">PROPUESTA TÉCNICA ORIGINAL · 8 pilares conservados</text>
+  <text x="1232" y="710" text-anchor="end" fill="#f4cad8" font-size="11">02 / 06</text>
+</svg>

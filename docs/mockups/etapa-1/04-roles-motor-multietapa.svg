@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Lato, system-ui, sans-serif">
+  <rect width="1280" height="720" fill="#EFEDEA"/>
+
+  <rect x="0" y="0" width="1280" height="64" fill="#970E48"/>
+  <rect x="0" y="64" width="1280" height="4" fill="#C2995C"/>
+  <text x="48" y="40" fill="#ffffff" font-size="18" font-weight="900" letter-spacing="0.5">SED 2.0  ·  ETAPA 1</text>
+  <text x="1232" y="40" text-anchor="end" fill="#f4cad8" font-size="12" font-weight="300" letter-spacing="2">PLAN RENACIMIENTO MAYA  ·  YUCATÁN 2024–2030</text>
+
+  <!-- Título -->
+  <g transform="translate(48 110)">
+    <text x="0" y="0" fill="#970E48" font-size="13" font-weight="900" letter-spacing="3">ROLES + MOTOR MULTI-ETAPA</text>
+    <rect x="0" y="8" width="60" height="3" fill="#C2995C"/>
+    <text x="0" y="50" fill="#1a1410" font-size="34" font-weight="900">Quién opera y cómo evalúa cada reactivo</text>
+  </g>
+
+  <!-- =========== Sección izquierda: roles =========== -->
+  <g transform="translate(48 200)">
+    <text x="0" y="0" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">CUATRO ROLES OPERATIVOS</text>
+    <rect x="0" y="6" width="40" height="2" fill="#C2995C"/>
+
+    <!-- 4 tarjetas de rol -->
+    <g transform="translate(0 30)">
+      <!-- Elaborador -->
+      <g>
+        <rect width="280" height="92" rx="6" fill="#ffffff" stroke="#cdc7bb"/>
+        <rect x="0" y="0" width="6" height="92" fill="#970E48"/>
+        <text x="20" y="28" fill="#1a1410" font-size="14" font-weight="900">Elaborador</text>
+        <text x="20" y="50" fill="#5e554b" font-size="11" font-weight="300">Construye reactivos para los PDA</text>
+        <text x="20" y="64" fill="#5e554b" font-size="11" font-weight="300">asignados. Versión inmutable 1.0.0,</text>
+        <text x="20" y="78" fill="#5e554b" font-size="11" font-weight="300">QTI 3.0, bilingüe es / yua.</text>
+      </g>
+      <!-- Revisor -->
+      <g transform="translate(0 110)">
+        <rect width="280" height="92" rx="6" fill="#ffffff" stroke="#cdc7bb"/>
+        <rect x="0" y="0" width="6" height="92" fill="#970E48"/>
+        <text x="20" y="28" fill="#1a1410" font-size="14" font-weight="900">Revisor</text>
+        <text x="20" y="50" fill="#5e554b" font-size="11" font-weight="300">Doble revisión ciega + árbitro.</text>
+        <text x="20" y="64" fill="#5e554b" font-size="11" font-weight="300">Token opaco oculta identidad. Pasa</text>
+        <text x="20" y="78" fill="#5e554b" font-size="11" font-weight="300">por revisión filológica obligatoria.</text>
+      </g>
+      <!-- Aplicador -->
+      <g transform="translate(0 220)">
+        <rect width="280" height="92" rx="6" fill="#ffffff" stroke="#cdc7bb"/>
+        <rect x="0" y="0" width="6" height="92" fill="#970E48"/>
+        <text x="20" y="28" fill="#1a1410" font-size="14" font-weight="900">Aplicador</text>
+        <text x="20" y="50" fill="#5e554b" font-size="11" font-weight="300">Conduce sesiones en su CCT.</text>
+        <text x="20" y="64" fill="#5e554b" font-size="11" font-weight="300">Certificación bienal. Cuatro</text>
+        <text x="20" y="78" fill="#5e554b" font-size="11" font-weight="300">modalidades: 1A1, rotación, grupal, OMR.</text>
+      </g>
+      <!-- Administrador -->
+      <g transform="translate(0 330)">
+        <rect width="280" height="92" rx="6" fill="#ffffff" stroke="#cdc7bb"/>
+        <rect x="0" y="0" width="6" height="92" fill="#970E48"/>
+        <text x="20" y="28" fill="#1a1410" font-size="14" font-weight="900">Administrador</text>
+        <text x="20" y="50" fill="#5e554b" font-size="11" font-weight="300">Coordinadores de banco, operaciones,</text>
+        <text x="20" y="64" fill="#5e554b" font-size="11" font-weight="300">tecnología y dirección general.</text>
+        <text x="20" y="78" fill="#5e554b" font-size="11" font-weight="300">RBAC declarativo en 22 roles.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- =========== Sección derecha: motor multi-etapa =========== -->
+  <g transform="translate(380 200)">
+    <text x="0" y="0" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">MOTOR MULTI-ETAPA POR REACTIVO</text>
+    <rect x="0" y="6" width="40" height="2" fill="#C2995C"/>
+
+    <text x="0" y="32" fill="#5e554b" font-size="12" font-weight="300">Aportación pedagógica de la propuesta original conservada íntegra.</text>
+    <text x="0" y="50" fill="#5e554b" font-size="12" font-weight="300">El estudiante no recibe respuestas múltiples al inicio: primero produce.</text>
+
+    <!-- Diagrama del motor multi-etapa -->
+    <g transform="translate(0 90)">
+      <!-- Etapa 1: Respuesta abierta -->
+      <g>
+        <rect width="240" height="140" rx="8" fill="#970E48"/>
+        <rect x="0" y="0" width="240" height="3" fill="#C2995C"/>
+        <text x="20" y="32" fill="#f4cad8" font-size="11" font-weight="900" letter-spacing="2">ETAPA 1</text>
+        <text x="20" y="58" fill="#ffffff" font-size="18" font-weight="900">Respuesta</text>
+        <text x="20" y="78" fill="#ffffff" font-size="18" font-weight="900">abierta</text>
+        <text x="20" y="106" fill="#f4cad8" font-size="11" font-weight="300">El estudiante produce</text>
+        <text x="20" y="120" fill="#f4cad8" font-size="11" font-weight="300">su procedimiento</text>
+        <text x="20" y="134" fill="#f4cad8" font-size="11" font-weight="300">en sus propias palabras.</text>
+      </g>
+
+      <!-- Flecha 1 -->
+      <g transform="translate(248 60)">
+        <rect width="20" height="3" fill="#C2995C"/>
+        <polygon points="20,-3 28,1.5 20,6" fill="#C2995C"/>
+      </g>
+
+      <!-- Etapa 2: Cerradas -->
+      <g transform="translate(284 0)">
+        <rect width="240" height="140" rx="8" fill="#ffffff" stroke="#C2995C" stroke-width="2"/>
+        <rect x="0" y="0" width="240" height="3" fill="#C2995C"/>
+        <text x="20" y="32" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">ETAPA 2</text>
+        <text x="20" y="58" fill="#1a1410" font-size="18" font-weight="900">Opciones</text>
+        <text x="20" y="78" fill="#1a1410" font-size="18" font-weight="900">cerradas</text>
+        <text x="20" y="106" fill="#5e554b" font-size="11" font-weight="300">Si la abierta es ambigua,</text>
+        <text x="20" y="120" fill="#5e554b" font-size="11" font-weight="300">se ofrecen opciones</text>
+        <text x="20" y="134" fill="#5e554b" font-size="11" font-weight="300">guiadas (scaffolding).</text>
+      </g>
+
+      <!-- Flecha 2 -->
+      <g transform="translate(532 60)">
+        <rect width="20" height="3" fill="#C2995C"/>
+        <polygon points="20,-3 28,1.5 20,6" fill="#C2995C"/>
+      </g>
+
+      <!-- Etapa 3: Procedimientos -->
+      <g transform="translate(568 0)">
+        <rect width="240" height="140" rx="8" fill="#E2DED7" stroke="#C2995C"/>
+        <rect x="0" y="0" width="240" height="3" fill="#C2995C"/>
+        <text x="20" y="32" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">ETAPA 3</text>
+        <text x="20" y="58" fill="#1a1410" font-size="18" font-weight="900">Procedimiento</text>
+        <text x="20" y="78" fill="#1a1410" font-size="18" font-weight="900">guiado</text>
+        <text x="20" y="106" fill="#5e554b" font-size="11" font-weight="300">Reconstrucción paso a</text>
+        <text x="20" y="120" fill="#5e554b" font-size="11" font-weight="300">paso para diagnóstico</text>
+        <text x="20" y="134" fill="#5e554b" font-size="11" font-weight="300">cognitivo y formativo.</text>
+      </g>
+    </g>
+
+    <!-- Caja resumen pedagógica -->
+    <g transform="translate(0 270)">
+      <rect width="808" height="148" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="808" height="3" fill="#C2995C"/>
+      <text x="20" y="32" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">POR QUÉ MULTI-ETAPA</text>
+      <text x="20" y="60" fill="#1a1410" font-size="14" font-weight="700">No es solo "marcar la opción correcta": es diagnosticar dónde se rompe el razonamiento.</text>
+      <text x="20" y="86" fill="#5e554b" font-size="12" font-weight="300">La etapa 1 obliga al estudiante a producir; la etapa 2 mide reconocimiento si no logra producir;</text>
+      <text x="20" y="102" fill="#5e554b" font-size="12" font-weight="300">la etapa 3 reconstruye el procedimiento para distinguir error conceptual de error de cálculo.</text>
+      <text x="20" y="120" fill="#5e554b" font-size="12" font-weight="300">Cada etapa genera un evento auditable; los reportes pedagógicos describen en qué etapa se</text>
+      <text x="20" y="136" fill="#5e554b" font-size="12" font-weight="300">resuelve cada reactivo, no solo si se acertó al final.</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <rect x="0" y="690" width="1280" height="30" fill="#640730"/>
+  <text x="48" y="710" fill="#ffffff" font-size="11" font-weight="700" letter-spacing="1">ROLES + MOTOR MULTI-ETAPA · Aportación pedagógica de la propuesta original</text>
+  <text x="1232" y="710" text-anchor="end" fill="#f4cad8" font-size="11">04 / 06</text>
+</svg>

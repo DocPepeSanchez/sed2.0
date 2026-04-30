@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Lato, system-ui, sans-serif">
+  <rect width="1280" height="720" fill="#EFEDEA"/>
+
+  <rect x="0" y="0" width="1280" height="64" fill="#970E48"/>
+  <rect x="0" y="64" width="1280" height="4" fill="#C2995C"/>
+  <text x="48" y="40" fill="#ffffff" font-size="18" font-weight="900" letter-spacing="0.5">SED 2.0  ·  ETAPA 1</text>
+  <text x="1232" y="40" text-anchor="end" fill="#f4cad8" font-size="12" font-weight="300" letter-spacing="2">PLAN RENACIMIENTO MAYA  ·  YUCATÁN 2024–2030</text>
+
+  <g transform="translate(48 110)">
+    <text x="0" y="0" fill="#970E48" font-size="13" font-weight="900" letter-spacing="3">APLICACIÓN Y REPORTES</text>
+    <rect x="0" y="8" width="60" height="3" fill="#C2995C"/>
+    <text x="0" y="50" fill="#1a1410" font-size="34" font-weight="900">Tres tipos de aplicación · cinco niveles de reporte</text>
+  </g>
+
+  <!-- Sección izquierda: tipos de aplicación -->
+  <g transform="translate(48 200)">
+    <text x="0" y="0" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">TRES TIPOS DE APLICACIÓN</text>
+    <rect x="0" y="6" width="40" height="2" fill="#C2995C"/>
+
+    <!-- Pilotaje -->
+    <g transform="translate(0 26)">
+      <rect width="572" height="120" rx="6" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="572" height="3" fill="#C2995C"/>
+      <g transform="translate(20 24)">
+        <rect width="72" height="32" rx="4" fill="#970E48"/>
+        <text x="36" y="22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="900">PILOTAJE</text>
+      </g>
+      <text x="110" y="46" fill="#1a1410" font-size="16" font-weight="900">Calibración psicométrica</text>
+      <text x="110" y="68" fill="#5e554b" font-size="12" font-weight="300">Muestra ≥ 500 respuestas por reactivo. Estima dificultad b, discriminación a y</text>
+      <text x="110" y="84" fill="#5e554b" font-size="12" font-weight="300">azar c bajo TRI 1PL/2PL/3PL. DIF por subgrupo (lengua materna, sexo, BAP).</text>
+      <text x="110" y="104" fill="#876237" font-size="11" font-weight="700">RB-05 · TRI · DIF</text>
+    </g>
+
+    <!-- Diagnóstico -->
+    <g transform="translate(0 156)">
+      <rect width="572" height="120" rx="6" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="572" height="3" fill="#C2995C"/>
+      <g transform="translate(20 24)">
+        <rect width="92" height="32" rx="4" fill="#970E48"/>
+        <text x="46" y="22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="900">DIAGNÓSTICO</text>
+      </g>
+      <text x="130" y="46" fill="#1a1410" font-size="16" font-weight="900">Inicio de ciclo escolar</text>
+      <text x="130" y="68" fill="#5e554b" font-size="12" font-weight="300">Censal por grado y campo formativo. Identifica niveles de partida en cada PDA</text>
+      <text x="130" y="84" fill="#5e554b" font-size="12" font-weight="300">y dispara alertas tempranas y planes de intervención.</text>
+      <text x="130" y="104" fill="#876237" font-size="11" font-weight="700">RR-01 · censal · banda de desempeño</text>
+    </g>
+
+    <!-- Seguimiento -->
+    <g transform="translate(0 286)">
+      <rect width="572" height="120" rx="6" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="572" height="3" fill="#C2995C"/>
+      <g transform="translate(20 24)">
+        <rect width="100" height="32" rx="4" fill="#970E48"/>
+        <text x="50" y="22" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="900">SEGUIMIENTO</text>
+      </g>
+      <text x="138" y="46" fill="#1a1410" font-size="16" font-weight="900">Through-Year (STAAR-TTAP)</text>
+      <text x="138" y="68" fill="#5e554b" font-size="12" font-weight="300">Tres ventanas a lo largo del ciclo. Equating con ítems de anclaje y reportes</text>
+      <text x="138" y="84" fill="#5e554b" font-size="12" font-weight="300">de trayectoria por estudiante para análisis longitudinal.</text>
+      <text x="138" y="104" fill="#876237" font-size="11" font-weight="700">3 ventanas · ítems anclaje · longitudinal</text>
+    </g>
+
+    <!-- Modalidades -->
+    <g transform="translate(0 426)">
+      <text x="0" y="0" fill="#970E48" font-size="10" font-weight="900" letter-spacing="2">CUATRO MODALIDADES OPERATIVAS</text>
+      <rect x="0" y="6" width="40" height="2" fill="#C2995C"/>
+      <g transform="translate(0 18)" font-size="12" fill="#403a32">
+        <g transform="translate(0 0)">
+          <rect width="130" height="32" rx="4" fill="#E2DED7" stroke="#C2995C"/>
+          <text x="65" y="20" text-anchor="middle" font-weight="700">1A1 · uno-a-uno</text>
+        </g>
+        <g transform="translate(140 0)">
+          <rect width="130" height="32" rx="4" fill="#E2DED7" stroke="#C2995C"/>
+          <text x="65" y="20" text-anchor="middle" font-weight="700">Rotación</text>
+        </g>
+        <g transform="translate(280 0)">
+          <rect width="130" height="32" rx="4" fill="#E2DED7" stroke="#C2995C"/>
+          <text x="65" y="20" text-anchor="middle" font-weight="700">Grupal</text>
+        </g>
+        <g transform="translate(420 0)">
+          <rect width="150" height="32" rx="4" fill="#E2DED7" stroke="#C2995C"/>
+          <text x="75" y="20" text-anchor="middle" font-weight="700">OMR (lápiz/papel)</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Sección derecha: 5 niveles de reportes (pirámide) -->
+  <g transform="translate(660 200)">
+    <text x="0" y="0" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">CINCO NIVELES JERÁRQUICOS DE REPORTE</text>
+    <rect x="0" y="6" width="40" height="2" fill="#C2995C"/>
+
+    <!-- Pirámide invertida (tier 5 arriba angosto, tier 1 abajo ancho) -->
+    <g transform="translate(0 30)">
+      <!-- Estado -->
+      <g>
+        <rect x="120" y="0" width="332" height="48" rx="4" fill="#970E48"/>
+        <text x="140" y="30" fill="#ffffff" font-size="13" font-weight="900">ESTADO</text>
+        <text x="240" y="30" fill="#f4cad8" font-size="11" font-weight="300">Informe Técnico Anual · datos abiertos</text>
+      </g>
+      <!-- Región -->
+      <g transform="translate(0 60)">
+        <rect x="90" y="0" width="392" height="48" rx="4" fill="#7e0a3c"/>
+        <text x="110" y="30" fill="#ffffff" font-size="13" font-weight="900">REGIÓN</text>
+        <text x="200" y="30" fill="#f4cad8" font-size="11" font-weight="300">RR-06 datos abiertos · análisis comparativo</text>
+      </g>
+      <!-- Zona -->
+      <g transform="translate(0 120)">
+        <rect x="60" y="0" width="452" height="48" rx="4" fill="#a87d44"/>
+        <text x="80" y="30" fill="#ffffff" font-size="13" font-weight="900">ZONA</text>
+        <text x="170" y="30" fill="#faf5ec" font-size="11" font-weight="300">RR-05 alerta si caída &gt; 0.5 SD · supervisión</text>
+      </g>
+      <!-- Escuela -->
+      <g transform="translate(0 180)">
+        <rect x="30" y="0" width="512" height="48" rx="4" fill="#C2995C"/>
+        <text x="50" y="30" fill="#ffffff" font-size="13" font-weight="900">ESCUELA</text>
+        <text x="170" y="30" fill="#403a32" font-size="11" font-weight="300">RR-07 anonimización (umbral mínimo n ≥ 5)</text>
+      </g>
+      <!-- Estudiante -->
+      <g transform="translate(0 240)">
+        <rect x="0" y="0" width="572" height="48" rx="4" fill="#d3b478"/>
+        <text x="20" y="30" fill="#1a1410" font-size="13" font-weight="900">ESTUDIANTE</text>
+        <text x="180" y="30" fill="#403a32" font-size="11" font-weight="300">RR-02 bilingüe · RR-03 lenguaje claro · familias</text>
+      </g>
+    </g>
+
+    <!-- Garantía -->
+    <g transform="translate(0 330)">
+      <rect width="572" height="80" rx="6" fill="#ffffff" stroke="#cdc7bb"/>
+      <rect x="0" y="0" width="572" height="3" fill="#C2995C"/>
+      <text x="20" y="28" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">DEVOLUCIÓN OPORTUNA · RC-07</text>
+      <text x="20" y="52" fill="#1a1410" font-size="13" font-weight="700">≤ 72 h al 95 % de respuestas calificadas</text>
+      <text x="20" y="70" fill="#5e554b" font-size="11" font-weight="300">Disponibilidad de plataforma ≥ 99.5 % bajo concurrencia masiva (P-10).</text>
+    </g>
+  </g>
+
+  <rect x="0" y="690" width="1280" height="30" fill="#640730"/>
+  <text x="48" y="710" fill="#ffffff" font-size="11" font-weight="700" letter-spacing="1">APLICACIÓN Y REPORTES · Tres tipos · Cinco niveles · Concurrencia masiva</text>
+  <text x="1232" y="710" text-anchor="end" fill="#f4cad8" font-size="11">05 / 06</text>
+</svg>

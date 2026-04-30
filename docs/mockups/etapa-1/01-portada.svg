@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Lato, system-ui, sans-serif">
+  <!-- Fondo crema institucional -->
+  <rect width="1280" height="720" fill="#EFEDEA"/>
+
+  <!-- Banda berry vertical izquierda (estilo portada manual pág 64) -->
+  <rect x="0" y="0" width="380" height="720" fill="#970E48"/>
+
+  <!-- Línea dorada decorativa vertical -->
+  <rect x="380" y="0" width="6" height="720" fill="#C2995C"/>
+
+  <!-- Texturas / acentos en banda izquierda -->
+  <g opacity="0.18">
+    <circle cx="60" cy="80" r="4" fill="#C2995C"/>
+    <circle cx="80" cy="80" r="4" fill="#C2995C"/>
+    <circle cx="100" cy="80" r="4" fill="#C2995C"/>
+    <line x1="60" y1="100" x2="320" y2="100" stroke="#C2995C" stroke-width="1"/>
+  </g>
+
+  <!-- Etiqueta superior -->
+  <text x="60" y="160" fill="#C2995C" font-size="14" font-weight="900" letter-spacing="3">PLAN RENACIMIENTO MAYA</text>
+  <text x="60" y="182" fill="#f4cad8" font-size="13" font-weight="300" letter-spacing="2">YUCATÁN  ·  2024 — 2030</text>
+
+  <!-- Título principal -->
+  <text x="60" y="280" fill="#ffffff" font-size="80" font-weight="900" letter-spacing="-1">SED 2.0</text>
+
+  <!-- Subtítulo -->
+  <text x="60" y="328" fill="#f4cad8" font-size="18" font-weight="300">Sistema de Evaluación Dinámica</text>
+  <text x="60" y="352" fill="#f4cad8" font-size="18" font-weight="300">del Estado de Yucatán</text>
+
+  <!-- Línea dorada decorativa pequeña -->
+  <rect x="60" y="380" width="120" height="3" fill="#C2995C"/>
+
+  <!-- Etiqueta etapa -->
+  <text x="60" y="430" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="2">DOCUMENTO DE ALCANCE</text>
+  <text x="60" y="478" fill="#ffffff" font-size="44" font-weight="900">Etapa 1</text>
+  <text x="60" y="508" fill="#f4cad8" font-size="16" font-weight="300">Plataforma base + tres pisos no-negociables</text>
+
+  <!-- Pie banda izquierda -->
+  <text x="60" y="660" fill="#f4cad8" font-size="11" font-weight="700" letter-spacing="2">CEEEY</text>
+  <text x="60" y="678" fill="#f4cad8" font-size="10" font-weight="300">Centro de Evaluación Educativa del Estado de Yucatán</text>
+
+  <!-- ============= ÁREA DERECHA ============= -->
+  <!-- Tagline grande -->
+  <text x="430" y="200" fill="#970E48" font-size="14" font-weight="900" letter-spacing="3">PROPUESTA TÉCNICA</text>
+  <rect x="430" y="208" width="60" height="3" fill="#C2995C"/>
+
+  <text x="430" y="260" fill="#1a1410" font-size="28" font-weight="900">Lo que entrega esta etapa</text>
+
+  <!-- Bullet 1 -->
+  <g transform="translate(430 305)">
+    <circle cx="6" cy="10" r="4" fill="#970E48"/>
+    <text x="22" y="14" fill="#1a1410" font-size="15" font-weight="700">Plataforma web estatal modular y escalable</text>
+    <text x="22" y="34" fill="#5e554b" font-size="13" font-weight="300">Banco de reactivos · instrumentos configurables ·</text>
+    <text x="22" y="52" fill="#5e554b" font-size="13" font-weight="300">motor multi-etapa · 4 roles · 5 niveles de reporte</text>
+  </g>
+
+  <!-- Bullet 2 -->
+  <g transform="translate(430 380)">
+    <circle cx="6" cy="10" r="4" fill="#970E48"/>
+    <text x="22" y="14" fill="#1a1410" font-size="15" font-weight="700">Tres pisos mínimos no-negociables</text>
+    <text x="22" y="34" fill="#5e554b" font-size="13" font-weight="300">LGPDPPSO básica · Accesibilidad WCAG 2.1 AA ·</text>
+    <text x="22" y="52" fill="#5e554b" font-size="13" font-weight="300">Identidad federada CURP con cruce 911 SEGOB</text>
+  </g>
+
+  <!-- Bullet 3 -->
+  <g transform="translate(430 455)">
+    <circle cx="6" cy="10" r="4" fill="#970E48"/>
+    <text x="22" y="14" fill="#1a1410" font-size="15" font-weight="700">Tres tipos de aplicación censal</text>
+    <text x="22" y="34" fill="#5e554b" font-size="13" font-weight="300">Pilotaje · Diagnóstico · Seguimiento</text>
+    <text x="22" y="52" fill="#5e554b" font-size="13" font-weight="300">Bilingüe español-maya · concurrencia masiva</text>
+  </g>
+
+  <!-- Caja resumen abajo derecha -->
+  <g transform="translate(430 550)">
+    <rect width="780" height="100" rx="6" fill="#E2DED7"/>
+    <rect x="0" y="0" width="780" height="3" fill="#C2995C"/>
+    <text x="20" y="32" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">CRITERIO DE ACEPTACIÓN</text>
+    <text x="20" y="60" fill="#1a1410" font-size="14" font-weight="700">La etapa se considera entregada cuando los 8 pilares operan en producción</text>
+    <text x="20" y="82" fill="#5e554b" font-size="12" font-weight="300">y los 3 pisos pasan auditoría externa: LGPDPPSO (INAIP), accesibilidad (WCAG-Audit) e identidad federada (RENAPO/SEP).</text>
+  </g>
+
+  <!-- Footer institucional -->
+  <rect x="380" y="690" width="900" height="30" fill="#640730"/>
+  <text x="430" y="710" fill="#ffffff" font-size="11" font-weight="700" letter-spacing="1">PORTADA · Documento de Etapa 1 · v1.0</text>
+  <text x="1250" y="710" text-anchor="end" fill="#f4cad8" font-size="11">01 / 06</text>
+</svg>
