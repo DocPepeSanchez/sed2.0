@@ -1,152 +1,168 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" font-family="Inter, system-ui, sans-serif">
-  <!-- Fondo página -->
-  <rect width="1280" height="900" fill="#f8fafc"/>
-
-  <!-- Skip link (oculto, visible al focus) -->
-  <rect x="16" y="-40" width="220" height="32" fill="#26496c" rx="4"/>
-  <text x="32" y="-20" fill="#fff" font-size="13">Saltar al contenido principal</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" font-family="Lato, system-ui, sans-serif">
+  <!-- Fondo página: off-white institucional. -->
+  <rect width="1280" height="900" fill="#EFEDEA"/>
 
   <!-- ======================= HEADER ======================= -->
-  <rect x="0" y="0" width="1280" height="68" fill="#26496c"/>
-  <!-- Sombra header -->
-  <rect x="0" y="68" width="1280" height="2" fill="#000" opacity="0.08"/>
+  <!-- Barra superior berry — Pantone 7641 C. -->
+  <rect x="0" y="0" width="1280" height="68" fill="#970E48"/>
+  <!-- Línea decorativa dorada — Pantone 7562 C. -->
+  <rect x="0" y="68" width="1280" height="4" fill="#C2995C"/>
 
   <!-- Logo izquierda -->
   <g transform="translate(48 18)">
-    <text x="0" y="14" fill="#ffffff" font-size="18" font-weight="700">SED 2.0</text>
-    <text x="0" y="32" fill="#dde8f3" font-size="11">Sistema de Evaluación Dinámica del Estado de Yucatán</text>
+    <text x="0" y="14" fill="#ffffff" font-size="20" font-weight="900" letter-spacing="0.5">SED 2.0</text>
+    <text x="0" y="34" fill="#f4cad8" font-size="11" font-weight="300">Sistema de Evaluación Dinámica del Estado de Yucatán</text>
   </g>
 
   <!-- Nav derecha -->
-  <g transform="translate(560 26)" font-size="13" fill="#ffffff">
+  <g transform="translate(560 26)" font-size="13" fill="#ffffff" font-weight="400">
     <text x="0"   y="14">Banco de Retos</text>
     <text x="110" y="14">Aplicaciones</text>
     <text x="200" y="14">Calificación</text>
     <text x="285" y="14">Reportes</text>
     <text x="350" y="14">Alertas</text>
     <text x="402" y="14">Observatorio</text>
-    <!-- Locale switcher -->
+    <!-- Locale switcher con separador dorado -->
     <g transform="translate(495 -2)">
       <rect width="80" height="28" rx="4" fill="rgba(255,255,255,0.10)"/>
-      <text x="14" y="18" font-size="12" font-weight="600">ES</text>
+      <line x1="0" y1="4" x2="0" y2="24" stroke="#C2995C" stroke-width="2"/>
+      <text x="14" y="18" font-size="12" font-weight="700">ES</text>
       <line x1="40" y1="6" x2="40" y2="22" stroke="rgba(255,255,255,0.3)"/>
-      <text x="50" y="18" font-size="12" fill="#dde8f3">YUA</text>
+      <text x="50" y="18" font-size="12" fill="#f4cad8">YUA</text>
     </g>
     <!-- Botón iniciar sesión -->
     <g transform="translate(590 -2)">
-      <rect width="124" height="28" rx="4" fill="rgba(255,255,255,0.12)"/>
-      <text x="20" y="18" font-size="12" font-weight="600">Iniciar sesión</text>
+      <rect width="124" height="28" rx="4" fill="rgba(255,255,255,0.14)"/>
+      <text x="20" y="18" font-size="12" font-weight="700">Iniciar sesión</text>
     </g>
   </g>
 
   <!-- ======================= MAIN ======================= -->
   <g transform="translate(384 110)">
     <!-- Etiqueta -->
-    <text x="0" y="0" fill="#26496c" font-size="11" font-weight="700" letter-spacing="2">PLAN RENACIMIENTO MAYA · ACCESO</text>
+    <text x="0" y="0" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">PLAN RENACIMIENTO MAYA · ACCESO</text>
+    <!-- Línea dorada decorativa bajo etiqueta -->
+    <line x1="0" y1="6" x2="64" y2="6" stroke="#C2995C" stroke-width="2"/>
 
     <!-- H1 -->
-    <text x="0" y="36" fill="#0f172a" font-size="28" font-weight="700">Iniciar sesión</text>
+    <text x="0" y="42" fill="#1a1410" font-size="30" font-weight="900">Iniciar sesión</text>
 
     <!-- Sub -->
-    <text x="0" y="64" fill="#475569" font-size="13">Acceso para personal CEEEY, docentes y aplicadores.</text>
-    <text x="0" y="82" fill="#475569" font-size="13">Estudiantes y tutores ingresan con CURP desde el portal de aplicación.</text>
+    <text x="0" y="68" fill="#5e554b" font-size="13" font-weight="400">Acceso para personal CEEEY, docentes y aplicadores.</text>
+    <text x="0" y="86" fill="#5e554b" font-size="13" font-weight="400">Estudiantes y tutores ingresan con CURP desde el portal de aplicación.</text>
 
     <!-- ============ FORM CARD ============ -->
-    <g transform="translate(0 108)">
-      <rect width="512" height="280" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
-      <!-- Sombra suave -->
-      <rect width="512" height="280" rx="8" fill="none" stroke="#000" opacity="0.04"/>
+    <g transform="translate(0 112)">
+      <rect width="512" height="280" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
 
       <!-- Campo identificador -->
       <g transform="translate(28 28)">
-        <text x="0" y="0" fill="#334155" font-size="12" font-weight="600">RFC o CURP / Correo electrónico</text>
-        <rect x="0" y="10" width="456" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
-        <text x="14" y="35" fill="#94a3b8" font-size="13">director@demo.sed.yucatan.gob.mx</text>
+        <text x="0" y="0" fill="#403a32" font-size="12" font-weight="700">RFC o CURP / Correo electrónico</text>
+        <rect x="0" y="10" width="456" height="40" rx="6" fill="#ffffff" stroke="#b3aa9b"/>
+        <text x="14" y="35" fill="#998d7c" font-size="13" font-weight="300">director@demo.sed.yucatan.gob.mx</text>
       </g>
 
       <!-- Campo contraseña -->
       <g transform="translate(28 100)">
-        <text x="0" y="0" fill="#334155" font-size="12" font-weight="600">Contraseña</text>
-        <rect x="0" y="10" width="456" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
-        <text x="14" y="35" fill="#94a3b8" font-size="14" letter-spacing="3">••••••••••••</text>
+        <text x="0" y="0" fill="#403a32" font-size="12" font-weight="700">Contraseña</text>
+        <rect x="0" y="10" width="456" height="40" rx="6" fill="#ffffff" stroke="#b3aa9b"/>
+        <text x="14" y="35" fill="#998d7c" font-size="14" letter-spacing="3">••••••••••••</text>
       </g>
 
-      <!-- Botón submit -->
+      <!-- Botón submit berry -->
       <g transform="translate(28 180)">
-        <rect width="456" height="42" rx="6" fill="#26496c"/>
-        <text x="228" y="27" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Iniciar sesión</text>
+        <rect width="456" height="42" rx="6" fill="#970E48"/>
+        <text x="228" y="27" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="900">Iniciar sesión</text>
       </g>
 
       <!-- Link olvidé contraseña -->
-      <text x="284" y="252" fill="#26496c" font-size="12" font-weight="600">¿Olvidó su contraseña?</text>
+      <text x="284" y="252" fill="#970E48" font-size="12" font-weight="700">¿Olvidó su contraseña?</text>
     </g>
 
-    <!-- ============ DEMO BOX (amber) ============ -->
+    <!-- ============ DEMO BOX ============ -->
     <g transform="translate(0 416)">
-      <rect width="512" height="172" rx="8" fill="#fffbeb" stroke="#fcd34d"/>
-      <text x="20" y="24" fill="#78350f" font-size="12" font-weight="700">Cuentas demo (solo para esta instancia pública)</text>
-      <g font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#78350f">
-        <text x="20" y="48">director@demo.sed.yucatan.gob.mx     · Directivo</text>
-        <text x="20" y="64">academico@demo.sed.yucatan.gob.mx    · Académico (Psicometrista Sr.)</text>
-        <text x="20" y="80">docente@demo.sed.yucatan.gob.mx      · Docente bilingüe</text>
-        <text x="20" y="96">elaborador@demo.sed.yucatan.gob.mx   · Elaborador del banco</text>
-        <text x="20" y="112">aplicador@demo.sed.yucatan.gob.mx    · Aplicador en CCT</text>
-        <text x="20" y="128">estudiante@demo.sed.yucatan.gob.mx   · Estudiante</text>
-        <text x="20" y="152" font-weight="700">Contraseña común: Demo2026Sed!</text>
+      <rect width="512" height="172" rx="8" fill="#E2DED7" stroke="#C2995C"/>
+      <!-- Línea decorativa dorada superior -->
+      <rect x="0" y="0" width="512" height="3" rx="1.5" fill="#C2995C"/>
+      <text x="20" y="28" fill="#970E48" font-size="12" font-weight="900">Cuentas demo (solo para esta instancia pública)</text>
+      <g font-family="ui-monospace, Menlo, monospace" font-size="10.5" fill="#403a32">
+        <text x="20" y="52">director@demo.sed.yucatan.gob.mx     · Directivo</text>
+        <text x="20" y="68">academico@demo.sed.yucatan.gob.mx    · Académico (Psicometrista Sr.)</text>
+        <text x="20" y="84">docente@demo.sed.yucatan.gob.mx      · Docente bilingüe</text>
+        <text x="20" y="100">elaborador@demo.sed.yucatan.gob.mx   · Elaborador del banco</text>
+        <text x="20" y="116">aplicador@demo.sed.yucatan.gob.mx    · Aplicador en CCT</text>
+        <text x="20" y="132">estudiante@demo.sed.yucatan.gob.mx   · Estudiante</text>
+        <text x="20" y="156" font-weight="700" fill="#970E48">Contraseña común: Demo2026Sed!</text>
       </g>
     </g>
   </g>
 
-  <!-- Aviso lateral / accesibilidad -->
+  <!-- =================== PANELES LATERALES =================== -->
+  <!-- Accesibilidad -->
   <g transform="translate(48 220)">
-    <rect width="280" height="148" rx="8" fill="#f3f7fb" stroke="#b7cfe5"/>
-    <text x="20" y="28" fill="#26496c" font-size="11" font-weight="700" letter-spacing="2">ACCESIBILIDAD</text>
-    <text x="20" y="56" fill="#1e293b" font-size="13" font-weight="600">WCAG 2.1 AA</text>
-    <text x="20" y="78" fill="#475569" font-size="11">• Navegación por teclado completa</text>
-    <text x="20" y="94" fill="#475569" font-size="11">• Skip-link al contenido principal</text>
-    <text x="20" y="110" fill="#475569" font-size="11">• Bilingüe es / yua (maya yucateco)</text>
-    <text x="20" y="126" fill="#475569" font-size="11">• Alto contraste opcional</text>
+    <rect width="280" height="148" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+    <rect x="0" y="0" width="280" height="3" rx="1.5" fill="#C2995C"/>
+    <text x="20" y="28" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">ACCESIBILIDAD</text>
+    <text x="20" y="56" fill="#1a1410" font-size="13" font-weight="900">WCAG 2.1 AA</text>
+    <text x="20" y="78" fill="#5e554b" font-size="11">• Navegación por teclado completa</text>
+    <text x="20" y="94" fill="#5e554b" font-size="11">• Skip-link al contenido principal</text>
+    <text x="20" y="110" fill="#5e554b" font-size="11">• Bilingüe es / yua (maya yucateco)</text>
+    <text x="20" y="126" fill="#5e554b" font-size="11">• Alto contraste opcional</text>
   </g>
 
-  <!-- Aviso lateral / seguridad -->
+  <!-- Seguridad -->
   <g transform="translate(48 388)">
-    <rect width="280" height="148" rx="8" fill="#fbf7f0" stroke="#e6cf9e"/>
-    <text x="20" y="28" fill="#684a23" font-size="11" font-weight="700" letter-spacing="2">SEGURIDAD</text>
-    <text x="20" y="56" fill="#1e293b" font-size="13" font-weight="600">Sesión cifrada (iron-session)</text>
-    <text x="20" y="78" fill="#475569" font-size="11">• Cookie httpOnly + secure</text>
-    <text x="20" y="94" fill="#475569" font-size="11">• Argon2id para contraseñas</text>
-    <text x="20" y="110" fill="#475569" font-size="11">• Auditoría completa del LOGIN</text>
-    <text x="20" y="126" fill="#475569" font-size="11">• RBAC declarativo (22 roles)</text>
+    <rect width="280" height="148" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+    <rect x="0" y="0" width="280" height="3" rx="1.5" fill="#C2995C"/>
+    <text x="20" y="28" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">SEGURIDAD</text>
+    <text x="20" y="56" fill="#1a1410" font-size="13" font-weight="900">Sesión cifrada (iron-session)</text>
+    <text x="20" y="78" fill="#5e554b" font-size="11">• Cookie httpOnly + secure</text>
+    <text x="20" y="94" fill="#5e554b" font-size="11">• Argon2id para contraseñas</text>
+    <text x="20" y="110" fill="#5e554b" font-size="11">• Auditoría completa del LOGIN</text>
+    <text x="20" y="126" fill="#5e554b" font-size="11">• RBAC declarativo (22 roles)</text>
   </g>
 
-  <!-- Aviso lateral / federación -->
+  <!-- Perfiles -->
   <g transform="translate(952 220)">
-    <rect width="280" height="148" rx="8" fill="#f3f7fb" stroke="#b7cfe5"/>
-    <text x="20" y="28" fill="#26496c" font-size="11" font-weight="700" letter-spacing="2">PERFILES</text>
-    <text x="20" y="56" fill="#1e293b" font-size="13" font-weight="600">Vista por familia de rol</text>
-    <text x="20" y="78" fill="#475569" font-size="11">• Directivo → KPIs estatales</text>
-    <text x="20" y="94" fill="#475569" font-size="11">• Académico → banco y calibración</text>
-    <text x="20" y="110" fill="#475569" font-size="11">• Docente → aplicaciones y alertas</text>
-    <text x="20" y="126" fill="#475569" font-size="11">• Estudiante → mi reporte</text>
+    <rect width="280" height="148" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+    <rect x="0" y="0" width="280" height="3" rx="1.5" fill="#C2995C"/>
+    <text x="20" y="28" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">PERFILES</text>
+    <text x="20" y="56" fill="#1a1410" font-size="13" font-weight="900">Vista por familia de rol</text>
+    <text x="20" y="78" fill="#5e554b" font-size="11">• Directivo → KPIs estatales</text>
+    <text x="20" y="94" fill="#5e554b" font-size="11">• Académico → banco y calibración</text>
+    <text x="20" y="110" fill="#5e554b" font-size="11">• Docente → aplicaciones y alertas</text>
+    <text x="20" y="126" fill="#5e554b" font-size="11">• Estudiante → mi reporte</text>
   </g>
 
   <g transform="translate(952 388)">
-    <rect width="280" height="148" rx="8" fill="#fbf7f0" stroke="#e6cf9e"/>
-    <text x="20" y="28" fill="#684a23" font-size="11" font-weight="700" letter-spacing="2">IDENTIDAD FEDERADA</text>
-    <text x="20" y="56" fill="#1e293b" font-size="13" font-weight="600">P-03 · CURP / RFC</text>
-    <text x="20" y="78" fill="#475569" font-size="11">• Personal: RFC + correo</text>
-    <text x="20" y="94" fill="#475569" font-size="11">• Estudiantes: CURP</text>
-    <text x="20" y="110" fill="#475569" font-size="11">• Tutores: CURP</text>
-    <text x="20" y="126" fill="#475569" font-size="11">• ADR-08: OAuth/OIDC en prod</text>
+    <rect width="280" height="148" rx="8" fill="#ffffff" stroke="#cdc7bb"/>
+    <rect x="0" y="0" width="280" height="3" rx="1.5" fill="#C2995C"/>
+    <text x="20" y="28" fill="#970E48" font-size="11" font-weight="900" letter-spacing="2">IDENTIDAD FEDERADA</text>
+    <text x="20" y="56" fill="#1a1410" font-size="13" font-weight="900">P-03 · CURP / RFC</text>
+    <text x="20" y="78" fill="#5e554b" font-size="11">• Personal: RFC + correo</text>
+    <text x="20" y="94" fill="#5e554b" font-size="11">• Estudiantes: CURP</text>
+    <text x="20" y="110" fill="#5e554b" font-size="11">• Tutores: CURP</text>
+    <text x="20" y="126" fill="#5e554b" font-size="11">• ADR-08: OAuth/OIDC en prod</text>
   </g>
 
   <!-- ======================= FOOTER ======================= -->
-  <rect x="0" y="828" width="1280" height="72" fill="#1f3b58"/>
-  <g transform="translate(48 856)" fill="#dde8f3" font-size="12">
-    <text x="0" y="0">© CEEEY · Centro de Evaluación Educativa del Estado de Yucatán</text>
-    <text x="720" y="0">Aviso de Privacidad</text>
-    <text x="860" y="0">Portal de Transparencia</text>
-    <text x="1010" y="0">Datos Abiertos</text>
-    <text x="1130" y="0">Contacto</text>
+  <!-- Sección crema con datos institucionales -->
+  <rect x="0" y="780" width="1280" height="4" fill="#C2995C"/>
+  <rect x="0" y="784" width="1280" height="68" fill="#E2DED7"/>
+  <g transform="translate(48 808)">
+    <text x="0" y="0" fill="#970E48" font-size="10" font-weight="900" letter-spacing="2">RENACIMIENTO MAYA · YUCATÁN 2024–2030</text>
+    <text x="0" y="22" fill="#640730" font-size="13" font-weight="900">Centro de Evaluación Educativa del Estado de Yucatán</text>
+    <text x="0" y="38" fill="#5e554b" font-size="11">Mérida, Yucatán · México</text>
   </g>
+  <g transform="translate(720 822)" fill="#403a32" font-size="11">
+    <text x="0" y="0">Aviso de Privacidad</text>
+    <text x="120" y="0">Portal de Transparencia</text>
+    <text x="270" y="0">Datos Abiertos</text>
+    <text x="370" y="0">Contacto</text>
+  </g>
+
+  <!-- Pie institucional final berry -->
+  <rect x="0" y="852" width="1280" height="48" fill="#640730"/>
+  <text x="48" y="881" fill="#ffffff" font-size="12" font-weight="900" letter-spacing="1">Plan Renacimiento Maya · Yucatán 2024–2030</text>
+  <text x="1232" y="881" text-anchor="end" fill="#f4cad8" font-size="11">© CEEEY · 2026</text>
 </svg>

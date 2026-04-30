@@ -5,8 +5,8 @@ const VARIANTES = {
   exito: 'bg-emerald-100 text-emerald-900',
   alerta: 'bg-amber-100 text-amber-900',
   critico: 'bg-red-100 text-red-900',
-  info: 'bg-ceeey-100 text-ceeey-900',
-  maya: 'bg-maya-100 text-maya-900',
+  info: 'bg-berry-100 text-berry-900',
+  maya: 'bg-dorado-100 text-dorado-900',
 } as const;
 
 export function Badge({

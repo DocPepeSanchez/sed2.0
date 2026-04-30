@@ -22,7 +22,7 @@ export default async function NuevoRetoPage({
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
       <header className="mb-6">
-        <p className="text-xs font-medium uppercase tracking-wider text-ceeey-600">
+        <p className="text-xs font-medium uppercase tracking-wider text-berry-600">
           {t('titulo')}
         </p>
         <h1 className="mt-1 text-2xl font-bold text-slate-900">{t('nuevoReto')}</h1>

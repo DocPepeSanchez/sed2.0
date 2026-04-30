@@ -5,7 +5,7 @@
 /* P-08: WCAG 2.1 AA — soporte para preferencias de accesibilidad. */
 @layer base {
   :root {
-    color-scheme: light dark;
+    color-scheme: light;
   }
 
   html {
@@ -15,12 +15,12 @@
   }
 
   body {
-    @apply bg-white text-slate-900 antialiased;
+    @apply bg-crema-100 text-slate-900 antialiased;
   }
 
   /* Foco visible — requisito 2.4.7 WCAG. */
   :focus-visible {
-    outline: 3px solid theme('colors.ceeey.500');
+    outline: 3px solid theme('colors.berry.500');
     outline-offset: 2px;
   }
 
@@ -44,6 +44,11 @@
 
 @layer components {
   .skip-link {
-    @apply absolute left-2 top-2 -translate-y-16 rounded bg-ceeey-700 px-3 py-2 text-white shadow focus:translate-y-0;
+    @apply absolute left-2 top-2 -translate-y-16 rounded bg-berry-700 px-3 py-2 text-white shadow focus:translate-y-0;
+  }
+
+  /* Línea decorativa dorada — separador institucional según manual. */
+  .linea-dorada {
+    @apply h-1 w-full bg-dorado-400;
   }
 }

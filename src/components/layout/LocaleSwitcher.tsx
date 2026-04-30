@@ -23,7 +23,7 @@ export function LocaleSwitcher({ current }: { current: string }) {
   }
 
   return (
-    <div className="flex items-center gap-1 ml-2 border-l border-ceeey-500 pl-3">
+    <div className="flex items-center gap-1 ml-2 border-l border-dorado-400 pl-3">
       <span className="sr-only">Cambiar idioma</span>
       {LOCALES.map((l) => (
         <button
@@ -33,10 +33,10 @@ export function LocaleSwitcher({ current }: { current: string }) {
           aria-pressed={current === l.code}
           aria-label={`Cambiar idioma a ${l.label}`}
           disabled={isPending}
-          className={`rounded px-2 py-1 text-xs font-medium ${
+          className={`rounded px-2 py-1 text-xs font-bold ${
             current === l.code
-              ? 'bg-white text-ceeey-700'
-              : 'text-white hover:bg-ceeey-600 focus:bg-ceeey-600'
+              ? 'bg-white text-berry-600'
+              : 'text-white hover:bg-berry-600 focus:bg-berry-600'
           }`}
         >
           {l.code.toUpperCase()}

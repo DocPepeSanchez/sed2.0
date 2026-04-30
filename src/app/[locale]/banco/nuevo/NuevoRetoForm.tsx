@@ -36,7 +36,7 @@ export function NuevoRetoForm({ locale }: { locale: string }) {
   const [claveCorrectas, setClaveCorrectas] = useState('');
 
   const inputCls =
-    'w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-ceeey-600 focus:outline-none focus:ring-2 focus:ring-ceeey-500';
+    'w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-berry-600 focus:outline-none focus:ring-2 focus:ring-berry-500';
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
@@ -224,7 +224,7 @@ export function NuevoRetoForm({ locale }: { locale: string }) {
         <button
           type="submit"
           disabled={enviando}
-          className="rounded bg-ceeey-700 px-4 py-2 text-sm font-medium text-white shadow hover:bg-ceeey-800 focus:outline-none focus:ring-2 focus:ring-ceeey-500 disabled:opacity-50"
+          className="rounded bg-berry-700 px-4 py-2 text-sm font-medium text-white shadow hover:bg-berry-800 focus:outline-none focus:ring-2 focus:ring-berry-500 disabled:opacity-50"
         >
           {enviando ? 'Creando…' : 'Crear reto'}
         </button>

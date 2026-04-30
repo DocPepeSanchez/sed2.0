@@ -71,14 +71,14 @@ export default async function HomePage({
   return (
     <div className="mx-auto max-w-7xl px-4 py-10">
       <section className="mb-10">
-        <p className="text-sm font-medium uppercase tracking-wider text-ceeey-600">
+        <p className="text-sm font-medium uppercase tracking-wider text-berry-600">
           {t('home.lema')}
         </p>
         <h1 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">{t('app.subtitulo')}</h1>
         <p className="mt-3 max-w-3xl text-slate-700">{t('home.intro')}</p>
         <Link
           href={`/${locale}/login`}
-          className="mt-5 inline-block rounded bg-ceeey-700 px-4 py-2 text-sm font-medium text-white shadow hover:bg-ceeey-800 focus:outline-none focus:ring-2 focus:ring-ceeey-500"
+          className="mt-5 inline-block rounded bg-berry-700 px-4 py-2 text-sm font-medium text-white shadow hover:bg-berry-800 focus:outline-none focus:ring-2 focus:ring-berry-500"
         >
           {t('auth.iniciarSesion')}
         </Link>
@@ -89,10 +89,10 @@ export default async function HomePage({
           <Link
             key={m.href}
             href={m.href}
-            className="group rounded-lg border border-slate-200 bg-white p-5 shadow-sm transition hover:border-ceeey-300 hover:shadow-md focus:border-ceeey-500 focus:outline-none focus:ring-2 focus:ring-ceeey-500"
+            className="group rounded-lg border border-slate-200 bg-white p-5 shadow-sm transition hover:border-berry-300 hover:shadow-md focus:border-berry-500 focus:outline-none focus:ring-2 focus:ring-berry-500"
           >
-            <p className="text-xs font-medium uppercase tracking-wide text-maya-600">{m.capa}</p>
-            <h2 className="mt-1 text-lg font-semibold text-slate-900 group-hover:text-ceeey-700">
+            <p className="text-xs font-medium uppercase tracking-wide text-dorado-600">{m.capa}</p>
+            <h2 className="mt-1 text-lg font-semibold text-slate-900 group-hover:text-berry-700">
               {m.titulo}
             </h2>
             <p className="mt-2 text-sm text-slate-600">{m.descripcion}</p>
@@ -100,7 +100,7 @@ export default async function HomePage({
         ))}
       </section>
 
-      <section className="mt-12 grid gap-6 rounded-lg bg-ceeey-50 p-6 lg:grid-cols-3">
+      <section className="mt-12 grid gap-6 rounded-lg border border-dorado-200 bg-crema-50 p-6 lg:grid-cols-3">
         <Indicador valor="≥ 99.5%" etiqueta={t('home.indicadores.disponibilidad')} detalle="P-10" />
         <Indicador valor="≤ 72 h" etiqueta={t('home.indicadores.devolucion')} detalle="95 % de respuestas" />
         <Indicador valor="WCAG 2.1 AA" etiqueta={t('home.indicadores.accesibilidad')} detalle="P-08" />
@@ -112,7 +112,7 @@ export default async function HomePage({
 function Indicador({ valor, etiqueta, detalle }: { valor: string; etiqueta: string; detalle: string }) {
   return (
     <div>
-      <p className="text-3xl font-bold text-ceeey-700">{valor}</p>
+      <p className="text-3xl font-bold text-berry-700">{valor}</p>
       <p className="mt-1 text-sm font-medium text-slate-900">{etiqueta}</p>
       <p className="text-xs text-slate-600">{detalle}</p>
     </div>

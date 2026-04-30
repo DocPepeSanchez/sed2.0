@@ -90,7 +90,7 @@ export default async function BancoPage() {
         </div>
         <a
           href="banco/nuevo"
-          className="rounded bg-ceeey-700 px-4 py-2 text-sm font-medium text-white shadow hover:bg-ceeey-800 focus:outline-none focus:ring-2 focus:ring-ceeey-500"
+          className="rounded bg-berry-700 px-4 py-2 text-sm font-medium text-white shadow hover:bg-berry-800 focus:outline-none focus:ring-2 focus:ring-berry-500"
         >
           {t('nuevoReto')}
         </a>

@@ -66,7 +66,7 @@ export function RoleDashboard({ perfil, locale, rfc, rolesAsignados, textos }: P
   return (
     <div className="mx-auto max-w-7xl px-4 py-10">
       <header className="mb-8">
-        <p className="text-xs font-medium uppercase tracking-wider text-ceeey-600">
+        <p className="text-xs font-medium uppercase tracking-wider text-berry-600">
           {textos.hola} · <span className="font-mono">{rfc}</span>
         </p>
         <h1 className="mt-1 text-3xl font-bold text-slate-900 md:text-4xl">{titulo}</h1>
@@ -105,7 +105,7 @@ export function RoleDashboard({ perfil, locale, rfc, rolesAsignados, textos }: P
             <p className="mt-2 text-sm text-slate-600">{textos.miReporteDesc}</p>
             <Link
               href={`/${locale}/reportes`}
-              className="mt-3 inline-block text-sm font-medium text-ceeey-700 hover:underline"
+              className="mt-3 inline-block text-sm font-medium text-berry-700 hover:underline"
             >
               {textos.reportes} →
             </Link>
@@ -118,10 +118,10 @@ export function RoleDashboard({ perfil, locale, rfc, rolesAsignados, textos }: P
           <Link
             key={m.href}
             href={m.href}
-            className="group rounded-lg border border-slate-200 bg-white p-5 shadow-sm transition hover:border-ceeey-300 hover:shadow-md focus:border-ceeey-500 focus:outline-none focus:ring-2 focus:ring-ceeey-500"
+            className="group rounded-lg border border-slate-200 bg-white p-5 shadow-sm transition hover:border-berry-300 hover:shadow-md focus:border-berry-500 focus:outline-none focus:ring-2 focus:ring-berry-500"
           >
-            <p className="text-xs font-medium uppercase tracking-wide text-maya-600">{m.capa}</p>
-            <h2 className="mt-1 text-lg font-semibold text-slate-900 group-hover:text-ceeey-700">
+            <p className="text-xs font-medium uppercase tracking-wide text-dorado-600">{m.capa}</p>
+            <h2 className="mt-1 text-lg font-semibold text-slate-900 group-hover:text-berry-700">
               {m.titulo}
             </h2>
             <p className="mt-2 text-sm text-slate-600">{m.descripcion}</p>
@@ -136,7 +136,7 @@ function KpiCard({ etiqueta, valor, detalle }: { etiqueta: string; valor: string
   return (
     <Card>
       <p className="text-xs uppercase tracking-wider text-slate-500">{etiqueta}</p>
-      <p className="mt-1 text-3xl font-bold text-ceeey-700">{valor}</p>
+      <p className="mt-1 text-3xl font-bold text-berry-700">{valor}</p>
       <p className="mt-1 text-xs text-slate-600">{detalle}</p>
     </Card>
   );
