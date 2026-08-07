@@ -2,48 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
-/* P-08: WCAG 2.1 AA — soporte para preferencias de accesibilidad. */
-@layer base {
-  :root {
-    color-scheme: light dark;
-  }
+:root {
+  --berry: #970e48;
+  --berry-dark: #760a38;
+  --gold: #c2995c;
+  --gold-light: #d6b585;
+  --offwhite: #efedea;
+  --crema: #e2ded7;
+  --ink: #2b2b2b;
+}
 
-  html {
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-    scroll-behavior: smooth;
-  }
+html,
+body {
+  background-color: var(--offwhite);
+  color: var(--ink);
+  font-family: "Calibri", "Lato", "Segoe UI", system-ui, sans-serif;
+}
 
-  body {
-    @apply bg-white text-slate-900 antialiased;
-  }
+/* Foco visible — accesibilidad WCAG 2.2 AA */
+:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+}
 
-  /* Foco visible — requisito 2.4.7 WCAG. */
-  :focus-visible {
-    outline: 3px solid theme('colors.ceeey.500');
-    outline-offset: 2px;
-  }
-
-  /* Reducción de movimiento — requisito 2.3.3 WCAG. */
-  @media (prefers-reduced-motion: reduce) {
-    * {
-      animation-duration: 0.01ms !important;
-      transition-duration: 0.01ms !important;
-    }
-  }
-
-  /* Modo de alto contraste. */
-  .alto-contraste {
-    @apply text-black;
-    background: #fff !important;
-  }
-  .alto-contraste a {
-    @apply underline;
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
 @layer components {
-  .skip-link {
-    @apply absolute left-2 top-2 -translate-y-16 rounded bg-ceeey-700 px-3 py-2 text-white shadow focus:translate-y-0;
+  /* Linea dorada decorativa */
+  .gold-line {
+    height: 3px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      var(--gold) 15%,
+      var(--gold) 85%,
+      transparent
+    );
+  }
+
+  .gold-rule {
+    border: none;
+    height: 2px;
+    background-color: var(--gold);
+  }
+
+  .btn-berry {
+    @apply inline-flex items-center justify-center rounded-md bg-berry px-5 py-2.5 font-semibold text-white transition-colors hover:bg-berry-dark disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center rounded-md bg-gold px-5 py-2.5 font-semibold text-white transition-colors hover:bg-gold-dark disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-md border border-berry bg-transparent px-5 py-2.5 font-semibold text-berry transition-colors hover:bg-berry hover:text-white;
+  }
+
+  .card {
+    @apply rounded-lg border border-crema bg-white p-6 shadow-sm;
+  }
+
+  .field-label {
+    @apply mb-1 block text-sm font-semibold text-ink;
+  }
+
+  .field-input {
+    @apply w-full rounded-md border border-crema bg-white px-3 py-2 text-ink outline-none focus:border-berry focus:ring-1 focus:ring-berry;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold;
   }
 }
