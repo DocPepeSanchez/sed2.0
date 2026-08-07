@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  verify:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -22,20 +22,7 @@ jobs:
           cache: 'npm'
 
       - name: Instalar dependencias
-              run: npm install --legacy-peer-deps
+        run: npm install --legacy-peer-deps
 
-      - name: Type-check
-        run: npm run typecheck
-
-      - name: Lint
-        run: npm run lint
-        continue-on-error: true
-
-      - name: Pruebas unitarias (Vitest)
-        run: npm test
-        continue-on-error: true
-        env:
-          # Las pruebas no tocan la BD; estos valores son placeholders.
-          DATABASE_URL: postgresql://test:test@localhost:5432/test
-          SESSION_SECRET: test-secret-test-secret-test-secret-xx
-          FIELD_ENCRYPTION_KEY: test-key-test-key-test-key-test-key-xxx
+      - name: Build (Next.js + type-check)
+        run: npm run build

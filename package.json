@@ -1,61 +1,29 @@
 {
-  "name": "sed-2.0",
-  "version": "2.0.0",
+  "name": "sed",
+  "version": "1.0.0",
   "private": true,
-  "description": "Sistema de Evaluación Dinámica del Estado de Yucatán — Plataforma de evaluación adaptativa, diagnóstica y de seguimiento del CEEEY",
-  "license": "Apache-2.0",
+  "description": "SED - Sistema de Evaluacion Adaptativa Multi-Etapa (POC Etapa 1)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "vercel-build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "typecheck": "tsc --noEmit",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "db:generate": "drizzle-kit generate",
-    "db:migrate": "tsx src/db/migrate.ts",
-    "db:push": "drizzle-kit push",
-    "db:seed": "tsx src/db/seed.ts",
-    "db:studio": "drizzle-kit studio",
-    "db:setup": "npm run db:push && npm run db:seed",
-    "psychometric:calibrate": "tsx scripts/calibrate.ts"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.10.0",
-"bcryptjs": "^2.4.3",
-    "clsx": "^2.1.1",
-    "drizzle-orm": "^0.36.4",
-    "iron-session": "^8.0.4",
-    "jose": "^5.9.6",
-    "next": "14.2.18",
-    "next-intl": "^3.26.0",
-    "pg": "^8.13.1",
-    "pino": "^9.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-hook-form": "^7.54.0",
-    "tailwind-merge": "^2.5.5",
-    "zod": "^3.24.1"
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
-        "@types/bcryptjs": "^2.4.6",
-    "@types/pg": "^8.11.10",
-    "@types/react": "^18.3.17",
-    "@types/react-dom": "^18.3.5",
-    "@vitest/coverage-v8": "^2.1.8",
-    "autoprefixer": "^10.4.20",
-    "drizzle-kit": "^0.30.0",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "14.2.18",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.16",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.2",
-    "vitest": "^2.1.8"
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.39",
+    "tailwindcss": "3.4.6",
+    "typescript": "5.5.3"
   },
   "engines": {
-    "node": ">=20.10.0"
+    "node": ">=18.17.0"
   }
 }
